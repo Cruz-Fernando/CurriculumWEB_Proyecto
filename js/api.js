@@ -9,7 +9,7 @@ const API_CONFIG = {
         token: null // Optional: Add personal access token for higher rate limits
     },
     linkedin: {
-        profileUrl: 'https://linkedin.com/in/jhojan-fernando-cruz-bulla' // Tu perfil de LinkedIn
+        profileUrl: 'https://www.linkedin.com/in/jhojan-fernando-cruz-4879703a0/' // Tu perfil de LinkedIn
     }
 };
 
@@ -144,9 +144,9 @@ class GitHubAPI {
                            style="color: var(--color-primary-gold); text-decoration: none; font-weight: 600; font-size: 1.05rem;">
                             📁 ${repo.name}
                         </a>
-                        <p style="font-size: 0.9rem; margin-top: 0.5rem; color: var(--color-off-white);">
-                            ${repo.description || 'Sin descripción'}
-                        </p>
+                        ${repo.description ? `<p style="font-size: 0.9rem; margin-top: 0.5rem; color: var(--color-off-white);">
+                            ${repo.description}
+                        </p>` : ''}
                         <div style="display: flex; gap: 1rem; margin-top: 0.5rem; font-size: 0.85rem; color: var(--color-accent-gold);">
                             ${repo.language ? `<span>💻 ${repo.language}</span>` : ''}
                             <span>⭐ ${repo.stargazers_count}</span>
