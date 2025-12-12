@@ -5,11 +5,11 @@
 // Configuration - UPDATE THESE WITH YOUR INFORMATION
 const API_CONFIG = {
     github: {
-        username: 'tuusuario', // ← Cambia esto por tu usuario de GitHub
+        username: 'Cruz-Fernando', // Tu usuario de GitHub
         token: null // Optional: Add personal access token for higher rate limits
     },
     linkedin: {
-        profileUrl: 'https://linkedin.com/in/tuusuario' // ← Cambia esto por tu perfil
+        profileUrl: 'https://linkedin.com/in/jhojan-fernando-cruz-bulla' // Tu perfil de LinkedIn
     }
 };
 
